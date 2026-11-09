@@ -1,0 +1,77 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = {};
+ objectVersion = 56;
+ objects = {
+/* Begin PBXBuildFile section */
+		F4148C6950BBBB316FA2C6BE = { isa = PBXBuildFile; fileRef = 5AACD38060FE2112C855D4AF /* CameraPoseTracker.swift */; };
+		6C8C4F0E0B4D1FEDC9E89F5C = { isa = PBXBuildFile; fileRef = EF9D517A6E927F752861BB70 /* CameraSetupView.swift */; };
+		173E14988C661BC6A072FA8F = { isa = PBXBuildFile; fileRef = 5F8AF578824F54D5F0DBAE94 /* CompletionView.swift */; };
+		0186C0797465688790F40134 = { isa = PBXBuildFile; fileRef = A85B1567F92AC45AD41D4230 /* HistoryView.swift */; };
+		4EB01D168A81206FAA7573A1 = { isa = PBXBuildFile; fileRef = 668CC2E136C2FECF64ECB7C0 /* ProgressView.swift */; };
+		BE4F183FE620186894753873 = { isa = PBXBuildFile; fileRef = 53D07F4B10E75EF6FC727716 /* RootView.swift */; };
+		247F538B780909597BDB7ACD = { isa = PBXBuildFile; fileRef = 19213E79CAF5235C66235556 /* SessionStore.swift */; };
+		162D1F693A43E10528AD934D = { isa = PBXBuildFile; fileRef = 90961B6A904923994343BBD9 /* SessionView.swift */; };
+		06F6E46B58277CC02A3DA654 = { isa = PBXBuildFile; fileRef = A32D8D9DC41C36C1F2C07CB2 /* Theme.swift */; };
+		2586D0F110880A329B252B2F = { isa = PBXBuildFile; fileRef = CC0A1A19A88BB3E50A9F6735 /* WorkoutController.swift */; };
+		58AA03476F1E5B70165B6309 = { isa = PBXBuildFile; fileRef = 2E0826350876BDF8A04ABCFB /* ZuZuApp.swift */; };
+		CF55FDE23AAB403F59CBC026 = { isa = PBXBuildFile; fileRef = 940A5CAFD24EA959FC1E0154 /* ProgressCalculator.swift */; };
+		64635CBE28DBC9576607F448 = { isa = PBXBuildFile; fileRef = 846F665B3B3784E6E5EB5343 /* RepCycleDetector.swift */; };
+		30DA460E87B0998F66229124 = { isa = PBXBuildFile; fileRef = 112C82ACB9594245E85A06AE /* SessionRecord.swift */; };
+		2812B7A1DDB98DCBC19C99B4 = { isa = PBXBuildFile; fileRef = 73375FFFEA256E8C140DB1DC /* CompletionHero.png */; };
+/* End PBXBuildFile section */
+/* Begin PBXFileReference section */
+		5AACD38060FE2112C855D4AF = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPoseTracker.swift; sourceTree = "<group>"; };
+		EF9D517A6E927F752861BB70 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSetupView.swift; sourceTree = "<group>"; };
+		5F8AF578824F54D5F0DBAE94 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionView.swift; sourceTree = "<group>"; };
+		A85B1567F92AC45AD41D4230 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		668CC2E136C2FECF64ECB7C0 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		53D07F4B10E75EF6FC727716 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		19213E79CAF5235C66235556 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		90961B6A904923994343BBD9 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		A32D8D9DC41C36C1F2C07CB2 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		CC0A1A19A88BB3E50A9F6735 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutController.swift; sourceTree = "<group>"; };
+		2E0826350876BDF8A04ABCFB = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZuZuApp.swift; sourceTree = "<group>"; };
+		940A5CAFD24EA959FC1E0154 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCalculator.swift; sourceTree = "<group>"; };
+		846F665B3B3784E6E5EB5343 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepCycleDetector.swift; sourceTree = "<group>"; };
+		112C82ACB9594245E85A06AE = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRecord.swift; sourceTree = "<group>"; };
+		73375FFFEA256E8C140DB1DC = { isa = PBXFileReference; lastKnownFileType = image.png; path = CompletionHero.png; sourceTree = "<group>"; };
+		38A007151ABE87CC01A5B6E9 = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZuZu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+/* Begin PBXGroup section */
+		6CFC827E67DCAE34C72B9CED = { isa = PBXGroup; children = ( 408A73663DA6B092F5A8FFA0 /* ZuZu */, 021F2B7F3E0C61452C987484 /* Products */, ); sourceTree = "<group>"; };
+		408A73663DA6B092F5A8FFA0 = { isa = PBXGroup; children = ( 1C48CE29E4E135EE62951B22 /* App */, 410188F9DC6E499FEC68BCF6 /* Core */, D4ED70D4D27623DE041795FF /* Resources */, ); path = ZuZu; sourceTree = "<group>"; };
+		D4ED70D4D27623DE041795FF = { isa = PBXGroup; children = ( 73375FFFEA256E8C140DB1DC /* CompletionHero.png */, ); path = Resources; sourceTree = "<group>"; };
+		1C48CE29E4E135EE62951B22 = { isa = PBXGroup; children = ( 5AACD38060FE2112C855D4AF /* CameraPoseTracker.swift */, EF9D517A6E927F752861BB70 /* CameraSetupView.swift */, 5F8AF578824F54D5F0DBAE94 /* CompletionView.swift */, A85B1567F92AC45AD41D4230 /* HistoryView.swift */, 668CC2E136C2FECF64ECB7C0 /* ProgressView.swift */, 53D07F4B10E75EF6FC727716 /* RootView.swift */, 19213E79CAF5235C66235556 /* SessionStore.swift */, 90961B6A904923994343BBD9 /* SessionView.swift */, A32D8D9DC41C36C1F2C07CB2 /* Theme.swift */, CC0A1A19A88BB3E50A9F6735 /* WorkoutController.swift */, 2E0826350876BDF8A04ABCFB /* ZuZuApp.swift */, ); path = App; sourceTree = "<group>"; };
+		410188F9DC6E499FEC68BCF6 = { isa = PBXGroup; children = ( 940A5CAFD24EA959FC1E0154 /* ProgressCalculator.swift */, 846F665B3B3784E6E5EB5343 /* RepCycleDetector.swift */, 112C82ACB9594245E85A06AE /* SessionRecord.swift */, ); path = Core; sourceTree = "<group>"; };
+		021F2B7F3E0C61452C987484 = { isa = PBXGroup; children = ( 38A007151ABE87CC01A5B6E9 /* ZuZu.app */, ); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+/* Begin PBXNativeTarget section */
+		0E8A3AD980EC179856012B7E = { isa = PBXNativeTarget; buildConfigurationList = B440910B32010914D0155F83; buildPhases = ( E4F78730D65EE9F55E2BAC2F, 7B8633C7EB6F5CB13673C25D, C52ABA055DA4D0050382EB56, ); buildRules = ( ); dependencies = ( ); name = ZuZu; productName = ZuZu; productReference = 38A007151ABE87CC01A5B6E9; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 = { isa = PBXProject; attributes = { LastUpgradeCheck = 2640; TargetAttributes = { 0E8A3AD980EC179856012B7E = { CreatedOnToolsVersion = 26.4; }; }; }; buildConfigurationList = 831D5D50E3DCCA5F3B08F657; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = ( en, Base, ); mainGroup = 6CFC827E67DCAE34C72B9CED; productRefGroup = 021F2B7F3E0C61452C987484; projectDirPath = ""; projectRoot = ""; targets = ( 0E8A3AD980EC179856012B7E, ); };
+/* End PBXProject section */
+/* Begin PBXSourcesBuildPhase section */
+		E4F78730D65EE9F55E2BAC2F = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = ( F4148C6950BBBB316FA2C6BE /* CameraPoseTracker.swift */, 6C8C4F0E0B4D1FEDC9E89F5C /* CameraSetupView.swift */, 173E14988C661BC6A072FA8F /* CompletionView.swift */, 0186C0797465688790F40134 /* HistoryView.swift */, 4EB01D168A81206FAA7573A1 /* ProgressView.swift */, BE4F183FE620186894753873 /* RootView.swift */, 247F538B780909597BDB7ACD /* SessionStore.swift */, 162D1F693A43E10528AD934D /* SessionView.swift */, 06F6E46B58277CC02A3DA654 /* Theme.swift */, 2586D0F110880A329B252B2F /* WorkoutController.swift */, 58AA03476F1E5B70165B6309 /* ZuZuApp.swift */, CF55FDE23AAB403F59CBC026 /* ProgressCalculator.swift */, 64635CBE28DBC9576607F448 /* RepCycleDetector.swift */, 30DA460E87B0998F66229124 /* SessionRecord.swift */, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+/* Begin PBXFrameworksBuildPhase section */
+		7B8633C7EB6F5CB13673C25D = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+/* Begin PBXResourcesBuildPhase section */
+		C52ABA055DA4D0050382EB56 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = ( 2812B7A1DDB98DCBC19C99B4 /* CompletionHero.png */, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+/* Begin XCBuildConfiguration section */
+		58B22D68371AC8F11EADCD99 = { isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = YES; SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; }; name = Debug; };
+		D005BFB4C42D9F64610280D7 = { isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = YES; SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; }; name = Release; };
+		96F032C02E8A3FC1B0365FA6 = { isa = XCBuildConfiguration; buildSettings = { ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_NSCameraUsageDescription = "ZuZu uses the front camera to count pushups on this iPhone."; IPHONEOS_DEPLOYMENT_TARGET = 17.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.gaplesslabs.ZuZu; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; }; name = Debug; };
+		5BDD486E465E20A146951F86 = { isa = XCBuildConfiguration; buildSettings = { ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_NSCameraUsageDescription = "ZuZu uses the front camera to count pushups on this iPhone."; IPHONEOS_DEPLOYMENT_TARGET = 17.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.gaplesslabs.ZuZu; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; }; name = Release; };
+/* End XCBuildConfiguration section */
+/* Begin XCConfigurationList section */
+		831D5D50E3DCCA5F3B08F657 = { isa = XCConfigurationList; buildConfigurations = ( 58B22D68371AC8F11EADCD99, D005BFB4C42D9F64610280D7, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		B440910B32010914D0155F83 = { isa = XCConfigurationList; buildConfigurations = ( 96F032C02E8A3FC1B0365FA6, 5BDD486E465E20A146951F86, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+ };
+ rootObject = 98F54143AB4E86B28C3AFEE0;
+}

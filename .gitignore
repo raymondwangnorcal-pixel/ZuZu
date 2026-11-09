@@ -1,0 +1,13 @@
+
+# Local configuration and generated files
+.DS_Store
+.env
+.env.*
+!.env.example
+.agents/
+.claude/
+.codex/
+.build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
